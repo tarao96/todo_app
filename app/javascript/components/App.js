@@ -15,37 +15,37 @@ const Nabvar = styled.nav`
 `
 
 const Logo = styled.div`
-    font-weight: bold;
-    font-size: 23px;
-    letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 3px;
 `
 
 const NavItems = styled.ul`
-    display: flex;
-    width: 400px;
-    max-width: 40%;
-    justify-content: space-around;
-    list-style: none;
+  display: flex;
+  width: 400px;
+  max-width: 40%;
+  justify-content: space-around;
+  list-style: none;
 `
 
 const NavItem = styled.li`
-    font-size: 19px;
-    font-weight: bold;
-    opacity: 0.7;
-    &:hover {
-        opacity: 1;
-    }
+  font-size: 19px;
+  font-weight: bold;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 `
 
 const Wrapper = styled.div`
-    width: 700px;
-    max-width: 85%;
-    margin: 20px auto;
+  width: 700px;
+  max-width: 85%;
+  margin: 20px auto;
 `
 
-function Add() {
-    return (
-        <>
+function App() {
+  return (
+    <>
       <Nabvar>
         <Logo>
           TODO
@@ -71,7 +71,7 @@ function Add() {
         </Switch>
       </Wrapper>
     </>
-        )
+  )
 }
 
 export default App
